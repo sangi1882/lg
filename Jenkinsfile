@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('test') {
             steps {
-                echo 'test the application'
+                echo 'test the application...'
             }
         }
                 stages {
@@ -17,10 +17,14 @@ pipeline {
         stage ('deply') {
             steps {
                 echo 'deply the application'
+            }
+        }
+                }
+                }
                 
-                         }
-                    }
-                  }
-             }
+                         
+                    
+                  
+             
          
                 
