@@ -1,20 +1,20 @@
 pipeline {
 
 stages {
-stage ("build"){
+stage ("build") {
 steps {
 echo 'build the maven project'
-}
-}
-stage ("test"){
+       }
+     }
+stage ("test") {
 steps {
 echo 'test the maven project'
+      }
 }
-}
-stage ("deploy"){
+stage ("deploy") {
 steps {
 echo 'deploy the maven project'
-}
-}
-}
-}
+        }
+      }
+    }
+   }
