@@ -19,7 +19,7 @@ pipeline {
                 echo 'deply the application'
             }
         }
-                }
-                }
+         }
+            }
          
                 
