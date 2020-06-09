@@ -17,9 +17,10 @@ pipeline {
         stage ('deply') {
             steps {
                 echo 'deply the application'
-            }
-        }
-         }
-            }
+                
+                         }
+                    }
+                  }
+             }
          
                 
