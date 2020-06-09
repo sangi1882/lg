@@ -1,20 +1,21 @@
 pipeline {
+    agent any
 
-stages {
-stage ("build") {
-steps {
-echo 'build the maven project'
-       }
-     }
-stage ("test") {
-steps {
-echo 'test the maven project'
-      }
-}
-stage ("deploy") {
-steps {
-echo 'deploy the maven project'
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+            }
         }
-      }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
     }
-   }
+}
